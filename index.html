@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Namorada 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Para Você, Meu Amor 💕</h1>
+        <nav>
+            <ul>
+                <li><a href="#nossa-historia">Nossa História</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#homenagem">Homenagem</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contador de dias juntos -->
+    <div class="contador">
+        Estamos juntos há 60 dias! sao 2 meses de muito aprendizado💖
+    </div>
+
+    <!-- Banner -->
+    <section id="banner">
+        <img src="Quadro.png" alt="Nosso Amor">
+    </section>
+
+    <!-- Nossa História com efeito de digitação -->
+    <section id="nossa-historia" class="section">
+        <h2>Nossa História 💑</h2>
+        <p id="historia-texto"></p>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section id="galeria" class="section">
+        <h2>Nossa Galeria 📸</h2>
+        <div class="gallery">
+            <img src="img1.jpg" alt="Foto 1">
+            <img src="img2.jpg" alt="Foto 2">
+            <img src="img3.jpg" alt="Foto 3">
+        </div>
+    </section>
+
+    <!-- Homenagem em vídeo -->
+    <section id="homenagem" class="section">
+        <h2>Homenagem 🎥</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </section>
+
+    <!-- Botão para mostrar carta de amor -->
+    <button id="mostrarCarta">💌 Abrir Carta de Amor</button>
+    <div id="carta" class="carta">
+        <p>Minha princesa, todos os dias ao seu lado são um presente. Você ilumina minha vida de uma forma que nem as estrelas conseguem! Te amo infinitamente. 💖</p>
+    </div>
+
+    <!-- Música de fundo com opção de ligar/desligar -->
+    <button id="playMusic">🎶 Tocar Música</button>
+    <audio id="musicaFundo" loop>
+        <source src="Eu vou te amar de sol a sol.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Botão com fogos de artifício -->
+    <button id="fogosBtn">🎇 Eu te amo!</button>
+    <canvas id="fogos"></canvas>
+
+    <!-- Corações Flutuantes -->
+    <script src="script.js"></script>
+</body>
+</html>
